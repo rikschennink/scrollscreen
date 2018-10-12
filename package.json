@@ -1,0 +1,28 @@
+{
+    "name": "scrollscreen",
+    "version": "1.0.1",
+    "description": "Custom vertical scrollbars",
+    "keywords": [
+      "scroll",
+      "vertical",
+      "custom",
+      "css"
+    ],
+    "main": "scrollscreen.js",
+    "author": "Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rikschennink/scrollscreen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rikschennink/scrollscreen/issues"
+    },
+    "homepage": "https://github.com/rikschennink/scrollscreen"
+  }
+  
