@@ -63,6 +63,9 @@
     height:100%;
     overflow-x:hidden;
     overflow-y:auto;
+
+    /* enable momentum-based scrolling scrolling */
+    -webkit-overflow-scrolling: touch;
 }
 
 .scrollscreen--content::-webkit-scrollbar {
