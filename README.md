@@ -8,6 +8,8 @@ Scrollscreen is a 1KB dependency free JavaScript library that positions a layer 
 
 Tested on IE11, Edge, Firefox, Chrome, Safari and iOS.
 
+[Live demo on Codepen](https://codepen.io/rikschennink/details/BqZeRj/)
+
 <img src="https://github.com/rikschennink/scrollscreen/blob/master/demo.gif?raw=true" width="370" alt=""/>
 
 ## Installation
