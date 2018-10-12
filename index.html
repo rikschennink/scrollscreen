@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+    
     <title>Scrollscreen Demo</title>
 
     <link href="scrollscreen.css" rel="stylesheet">
@@ -34,9 +35,9 @@
         .scrollscreen {
             /* just so we have something to scroll */
             width:300px;
-            height:200px;
+            height:400px;
+            max-height:calc(100% - 2em);
             background:#dcdcdf;
-
             border-radius:.5em;
             
             /* forces border radius to cut off content */
@@ -44,7 +45,7 @@
         }
     </style>
 
-    <div dir="ltr" class="scrollscreen">
+    <div class="scrollscreen">
         <div class="content">
             <h1>Hi! I'm Scrollscreen!</h1>
             <p>Scrollscreen positions a layer precisely on top of the browser default scrollbar allowing custom styles.</p>
@@ -94,55 +95,6 @@
         </div>
     </div>
 
-    <div dir="rtl" class="scrollscreen">
-        <div class="content">
-            <h1>Hi! I'm Scrollscreen!</h1>
-            <p>Scrollscreen positions a layer precisely on top of the browser default scrollbar allowing custom styles.</p>
-            <ul>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-                <li>Scroll</li>
-            </ul>
-        </div>
-    </div>
-    
     <script src="scrollscreen.js"></script>
 </body>
 </html>
