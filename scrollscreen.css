@@ -1,18 +1,18 @@
 /*
  * Cosmetics
  */
-.scrollscreen-track {
+.scrollscreen--track {
     /* width of track, 18px should cover default track on MacOS and Windows */
     width:18px;
     background:#bebec1;
 }
 
-.scrollscreen-slider {
+.scrollscreen--slider {
     /* space between slider and track */
     padding:.25em;
 }
 
-.scrollscreen-slider::after {
+.scrollscreen--slider::after {
     /* slider style */
     background:#5f6165;
     border-radius:9999em;
@@ -26,7 +26,7 @@
 	position:relative;
 }
 
-.scrollscreen-track {
+.scrollscreen--track {
     position:absolute;
     right:0;
     top:0;
@@ -34,12 +34,12 @@
     pointer-events:none;
 }
 
-*[dir='rtl'] .scrollscreen-track {
+*[dir='rtl'] .scrollscreen--track {
     left:0;
     right:auto;
 }
 
-.scrollscreen-slider {
+.scrollscreen--slider {
     position:absolute;
     top:0;
     left:0;
@@ -51,16 +51,21 @@
     pointer-events:none;
 }
 
-.scrollscreen-slider::after {
+.scrollscreen--slider::after {
     content:'';
     display:block;
     width:100%;
     height:100%;
 }
 
-.scrollscreen-content {
+.scrollscreen--content {
     position:relative;
     height:100%;
     overflow-x:hidden;
     overflow-y:auto;
+}
+
+.scrollscreen--content::-webkit-scrollbar {
+    /* fix WebKit problems with MacOS automatically hiding scrollbars */
+    -webkit-appearance: none;
 }
