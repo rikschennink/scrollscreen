@@ -1,7 +1,10 @@
 # Scrollscreen
 
-Scrollscreen is a 1KB dependency free JavaScript library that positions a layer precisely on top of the browser default scrollbar allowing custom styles.
+Scrollscreen is a 1KB dependency free JavaScript library that positions a layer precisely on top of the browser default scrollbar in turn allowing custom styles.
 
+Tested on IE11, Edge, Firefox, Chrome, Safari and iOS.
+
+<img src="https://github.com/rikschennink/scrollscreen/blob/master/demo.gif?raw=true" width="370" alt=""/>
 
 ## Installation
 
@@ -14,7 +17,25 @@ Put the `scrollscreen` CSS class on a container. Make sure the container's heigh
 
 ```html
 <style>
+.scrollscreen--track {
+    /* width of track, 18px covers native track on MacOS and Windows */
+    width:18px;
+    background:#bebec1;
+}
+
+.scrollscreen--slider {
+    /* use for spacing between slider and track */
+    padding:.25em;
+}
+
+.scrollscreen--slider::after {
+    /* the slider button style */
+    background:#5f6165;
+    border-radius:9999em;
+}
+    
 .scrollscreen {
+    /* set scrollscreen to a fixed height to make scrollbars appear */
     height: 100px;
 }
 </style>
