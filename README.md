@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rikschennink/scrollscreen/blob/gh-pages/LICENSE)
 [![npm version](https://badge.fury.io/js/scrollscreen.svg)](https://badge.fury.io/js/scrollscreen)
-[![Donate with PayPal](https://img.shields.io/badge/donate-PayPal.me-pink.svg)](https://www.paypal.me/rikschennink/5)
 
 Scrollscreen is a 1KB dependency free JavaScript library that positions a layer precisely on top of the browser default scrollbar in turn allowing custom styles.
 
