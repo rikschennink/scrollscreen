@@ -24,19 +24,19 @@ Put the `scrollscreen` CSS class on a container. Make sure the container's heigh
 <style>
 .scrollscreen--track {
     /* width of track, 18px covers native track on MacOS and Windows */
-    width:18px;
-    background:#bebec1;
+    width: 18px;
+    background: #bebec1;
 }
 
 .scrollscreen--slider {
     /* use for spacing between slider and track */
-    padding:.25em;
+    padding: .25em;
 }
 
 .scrollscreen--slider::after {
     /* the slider button style */
-    background:#5f6165;
-    border-radius:9999em;
+    background: #5f6165;
+    border-radius: 9999em;
 }
     
 .scrollscreen {
